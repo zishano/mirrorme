@@ -26,7 +26,9 @@ data class PersonaProfile(
     val personaSummary: String,
     val insights: List<String>,    // 今日洞察列表
     val suggestions: List<String>  // 行动建议列表
-)
+) {
+    companion object
+}
 
 enum class MoodState {
     VERY_POSITIVE, POSITIVE, NEUTRAL, NEGATIVE, VERY_NEGATIVE

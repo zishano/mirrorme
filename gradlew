@@ -8,7 +8,7 @@ APP_HOME=$(cd "$(dirname "$0")" && pwd)
 CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
 
 # Default JVM options
-DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
+DEFAULT_JVM_OPTS="-Xmx64m -Xms64m"
 
 # Use the maximum available, or set MAX_FD != -1 to use that value.
 MAX_FD=maximum
