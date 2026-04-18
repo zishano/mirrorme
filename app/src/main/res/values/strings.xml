@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">自镜 MirrorMe</string>
+    <string name="notification_collecting">MirrorMe 正在静默收集行为数据</string>
+    <string name="notification_insight_ready">你的今日行为报告已生成</string>
+    <string name="permission_usage_stats_title">需要使用情况访问权限</string>
+    <string name="permission_usage_stats_desc">MirrorMe 需要读取 App 使用统计来分析你的行为模式。所有数据仅存储在本设备，绝不上传。</string>
+</resources>
